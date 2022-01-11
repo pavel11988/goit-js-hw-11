@@ -1,0 +1,70 @@
+body {
+    background:  linear-gradient(to right, #cc2b5e, #753a88);
+}
+
+.search-form {
+    display: flex;
+    text-align: center;
+    margin: 25px;
+    justify-content: center;
+}
+
+.search-form > input {
+    height: 40px;
+    margin-right: 5px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.search.btn { 
+    height: 40px;
+}
+
+.load-more {
+    display: block;
+    border-radius: 8px;
+    border-color: transparent;
+    margin: 15px auto;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.card-options {
+    display: block;
+}
+
+.card-image {
+    width: 250px;
+    height: 200px ;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.card-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
+}
+
+.card-text {
+ 
+}
