@@ -59,7 +59,7 @@ async function appendHitsMarkup(dataObj) {
     if (gallery.innerHTML !== '' && hits.length == 0) return endOfData();
 
     if (gallery.innerHTML === '') Notiflix.Notify.success(`Hooray! We found ${totalHits} images.`)
-
+    console.log();
     if (hits.length > 39) buttonStatus.buttonEnabled();
 
     gallery.insertAdjacentHTML('beforeend', hitsTpl(hits));

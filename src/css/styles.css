@@ -19,11 +19,12 @@ body {
 
 .search.btn { 
     height: 40px;
+    border-radius: 10px;
 }
 
 .load-more {
     display: block;
-    border-radius: 8px;
+    border-radius: 10px;
     border-color: transparent;
     margin: 15px auto;
 }
@@ -35,14 +36,16 @@ body {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
-    width: 400px;
+    width: 300px;
     margin: 10px;
     padding: 5px;
     background-color: lightblue;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 .card-options {
@@ -54,17 +57,16 @@ body {
     height: 200px ;
     object-fit: cover;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .card-options {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin: 15px;
-
 }
 
-.card-text {
- 
-}
+

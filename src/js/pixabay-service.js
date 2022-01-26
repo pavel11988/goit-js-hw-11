@@ -5,6 +5,7 @@ export default class PixabayApiService {
     }
 
     async fetchOfQuery() {
+        
         const axios = require('axios').default;
     
         const options = {
@@ -19,11 +20,13 @@ export default class PixabayApiService {
                 orientation: 'horizontal',
                 safesearch: true,
             },
+    
           };
       
         const serchResult = await axios(options);
 
         this.incrementPage();
+        
         
         return serchResult.data;
 
